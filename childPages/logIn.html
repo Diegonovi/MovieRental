@@ -4,20 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log In</title>
-    <link rel="stylesheet" href="style/logInStyle.css" />
-    <link rel="stylesheet" href="style/homestyle.css" />
+    <link rel="stylesheet" href="../style/logInStyle.css" />
+    <link rel="stylesheet" href="../style/homestyle.css" />
   </head>
   <body>
     <div class="topBar">
       <button class="logIn" onclick="window.location.href='logIn.html'">
-        <img src="icons/userIcon.png" alt="logInIcon" />
+        <img src="../icons/userIcon.png" alt="logInIcon" />
       </button>
     </div>
     <div class="logInContainer">
       <h1>Log In</h1>
       <form>
-        <input type="text" placeholder="Username" />
-        <input type="text" placeholder="Password" />
+        <input type="text" placeholder="Usuario" style="color: aliceblue" />
+        <input
+          type="password"
+          placeholder="Contraseña"
+          style="color: aliceblue"
+        />
         <input type="submit" value="Log In" />
       </form>
     </div>

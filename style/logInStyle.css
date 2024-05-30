@@ -13,19 +13,79 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background: url("../photos/background/background.webp") no-repeat center
+    center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: url("../photos/background/background.webp");
+}
+
+.topBar {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logIn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.logIn img {
+  height: 30px;
 }
 
 .logInContainer {
-  width: 40vw;
-  height: 60vh;
+  height: 40vh;
+  width: 20vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-color: rgb(28, 27, 27);
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logInContainer h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.logInContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.logInContainer input[type="text"],
+.logInContainer input[type="password"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.logInContainer input[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.logInContainer input[type="submit"]:hover {
+  background-color: #45a049;
 }
