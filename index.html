@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twilight Movies</title>
+    <link rel="stylesheet" href="style/homestyle.css" />
+  </head>
+  <body class="page">
+    <div class="topBar">
+      <button class="logIn" onclick="window.location.href='logIn.html'">
+        <img src="icons/userIcon.png" alt="logInIcon" />
+      </button>
+    </div>
+    <div class="container">
+      <div class="welcomeText">
+        <h1 class="Title">Bienvenido/a</h1>
+        <p class="Runtime"></p>
+        <p class="Summary">Descubre miles de películas... todas a su alcance</p>
+      </div>
+      <button class="backArrow" onclick="previousSlide()">
+        <img src="icons/backArrow.png" alt="backArrow" />
+      </button>
+      <div class="movie-list">
+        <button class="movie-poster" onclick="setIndex(0)">
+          <img src="photos/60Segundos.jpg" alt="Heartbreak Ridge" />
+        </button>
+        <button class="movie-poster" onclick="setIndex(1)">
+          <img src="photos/HarryPotter.jpg" alt="Harry Potter" />
+        </button>
+        <button class="movie-poster" onclick="setIndex(2)">
+          <img src="photos/matrix.jpg" alt="3 Ninjas" />
+        </button>
+        <button class="movie-poster" onclick="setIndex(3)">
+          <img src="photos/karateKid.jpg" alt="The Karate Kid" />
+        </button>
+        <button class="movie-poster" onclick="setIndex(4)">
+          <img src="photos/pequeñosNinjas.jpg" alt="Gone in 60 Seconds" />
+        </button>
+        <button class="movie-poster" onclick="setIndex(5)">
+          <img src="photos/ElSargentoDeHierro.jpg" alt="Gone in 60 Seconds" />
+        </button>
+      </div>
+      <button class="nextArrow" onclick="nextSlide()">
+        <img src="icons/forwardArrow.png" alt="previousArrow" />
+      </button>
+    </div>
+    <div class=expandableSpace"></div>
+    <script src="javaScript/backgroundChange.js"></script>
+  </body>
+</html>
