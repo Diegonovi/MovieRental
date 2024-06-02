@@ -46,6 +46,15 @@ h1 {
   font-family: Poppins;
 }
 
+.home {
+  position: absolute;
+  margin-left: 45vw;
+}
+
+.home img {
+  height: 3rem;
+}
+
 .logIn {
   position: absolute;
   right: 20px;
