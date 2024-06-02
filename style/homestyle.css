@@ -78,12 +78,12 @@ h1 {
   z-index: 2;
   position: absolute;
   left: 20px;
-  background: rgba(215, 215, 215, 0.5);
+  background-color: rgba(132, 132, 132, 0.5);
   color: white;
   padding: 20px;
   border-radius: 8px;
+  max-width: 50vw;
   text-align: left;
-  width: 50vw;
   font-size: 1rem;
 }
 
@@ -98,7 +98,7 @@ h1 {
   padding: 10px;
   color: white;
   position: absolute;
-  top: 15rem;
+  top: 35vh;
 }
 
 .backArrow img {
@@ -117,7 +117,7 @@ h1 {
   padding: 10px;
   color: white;
   position: absolute;
-  top: 15rem;
+  top: 35vh;
 }
 
 .nextArrow img {
