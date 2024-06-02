@@ -18,12 +18,15 @@
   background: transparent;
 }
 
-body {
+.page {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-image: url("../background/back.jpg");
+  height: 100vh;
+  width: 100vw;
 }
 
 h1 {
@@ -64,14 +67,15 @@ h1 {
 
 .welcomeText {
   z-index: 2;
+  position: absolute;
   left: 20px;
   background: rgba(215, 215, 215, 0.5);
   color: white;
   padding: 20px;
   border-radius: 8px;
   text-align: left;
-  height: 17vh;
   width: 50vw;
+  font-size: 1rem;
 }
 
 .backArrow {
@@ -84,6 +88,8 @@ h1 {
   font-size: 24px;
   padding: 10px;
   color: white;
+  position: absolute;
+  top: 15rem;
 }
 
 .backArrow img {
@@ -101,6 +107,8 @@ h1 {
   font-size: 24px;
   padding: 10px;
   color: white;
+  position: absolute;
+  top: 15rem;
 }
 
 .nextArrow img {
@@ -142,15 +150,4 @@ h1 {
 .movie-poster img:hover {
   transform: scale(1.12);
   box-shadow: 0 13px 8px rgba(0, 0, 0, 0.2);
-}
-
-.expandableSpace {
-  height: 0;
-  display: none;
-}
-
-.movie-poster:focus ~ .expandableSpace {
-  height: 50vh;
-  width: 100vw;
-  display: block;
 }

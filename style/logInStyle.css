@@ -16,8 +16,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: url("../photos/background/background.webp") no-repeat center
-    center fixed;
+  background: url("../background/background.webp") no-repeat center center fixed;
   background-size: cover;
 }
 
