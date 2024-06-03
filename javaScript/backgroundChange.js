@@ -51,7 +51,7 @@ const slides = [
     image: "background/back.jpg",
     title: "Motrix",
     runtime: "",
-    summary: "Descubre miles de películas... todas a su alcance",
+    summary: "Elige la píldora del entretenimiento",
   },
 ];
 
